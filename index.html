@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lapastilla</title>
-     <link rel="icon" href="img/banner.jpg">
+    <link rel="icon" href="img/banner.jpg">
 </head>
 <body>
-     <header id="home">
+    <header id="home">
        <nav>
          <div class="logo">Lapastilla</div>
                 <div class="menu-items">
-                    <a href="#home">Про нас</a>
+                    <a href="#home">Головна</a>
+                    <a href="#about">Про нас</a>
                     <a href="products.html">Продукція</a>
-                    <a href="#contacts">Контакти</a>
-                    <a href="#">Кошик</a>
-                    
+                    <a href="#locations-1">Контакти</a>
+                    <a href="#card">Кошик</a>
                 </div>
        </nav>
 
        <div class="banner">
        <h1>Корисні солодощі цілий рік</h1>
        </div>
-    </head>
-
+    </header>
     <main>
+       
      <h2>Яка користь від натуральних солодощів</h2>
      <br>
      <div class="product pluses">
@@ -33,9 +33,10 @@
          Заряджають енергією і є джерелом корисних вуглеводів.А ще це ідеальний перекус для всієї родини, який можна взяти з собою в подорож або дати дітям в садок / школу.</p>
      </div>
 
-     <h2>Про нас</h2>
-     <br>
-     <div class="about us">
+     
+     <div id="about">
+         <h2>Про нас</h2>
+         <br>
          <p>Натуральна пастила.Одна з самих корисних солодощів, прекрасна заміна цукеркам, улюблені ласощі багатьох сімей - пастила з яблук. Люди, які стежать за своїм здоров'ям, знають, що цей продукт можна і потрібно вживати через його енергетичної цінності. Натуральні солодощі без цукру купити може кожен бажаючий. Підвищує імунітет і піднімає настрій.
          </p>
          <img src="img/abr.jpg" alt="abr">
@@ -57,7 +58,7 @@
         <h2>Наша продукція</h2>
         <br>
         <div class=" our products">
-          <p>
+          
             <ul>
                 <li>Пастила з абрикосу</li>
                 <li>Пастила з малини</li>
@@ -66,38 +67,45 @@
                 <li>Пастила з яблука</li>
                 <li>Пастила з груші</li>
             </ul>
-          </p>
+          
 
         </div>
 
     </main>
 
     <footer>
-    <h2>Контакти</h2>
-    <div class="contacts">
-      <h3>Київ</h3>
-      <img src="img/kiev.jpg" alt="kiev">
-      <p>03125, Голосіївська 17,</p>
-      <p>+3 (8068) 567 89 02</p>
-
-    </div>
-    <div class="text content">
-      <h3>La pastilla</h3>
-      <ul>
-        <span >Пн-Пт: 9:00-18:00</span>
-        <span >Сб: 9:00-16:00</span>
-        <span >Нд: вихідний</span>
-      </ul>
-      <span>Слідкуйте за нами</span>
-      <span >© Created by</span>
-      <span >All rights Reserved</span>
-
-
-    </div>
     
+        <div id="locations-1">
+            <h2>Контакти</h2>
+            <h3>Київ</h3>
+            <img src="img/kiev.jpg" alt="kiev">
+            <p>03125, Голосіївська 17,</p>
+            <p>+3 (8068) 567 89 02</p>
+        </div>
 
+        <div id="contact-us">
+            <h2>Напишіть нам</h2>
+            <form id="data">
+            <input type="text" placeholder="ім'я*" required name="user-name"><br>
+            <input type="email" placeholder="Пошта*" required name="user-email"><br>
+            <textarea placeholder="Повідомлення*" required name="user-name"></textarea><br>
+            <button type="submit">Відправити</button>
+            </form>
+       </div>
 
-    
+        <div id="work-time">
+            <h3>La pastilla</h3>
+            <span >Пн-Пт: 9:00-18:00</span>
+            <br>
+            <span >Сб: 9:00-16:00</span>
+            <br>
+            <span >Нд: вихідний</span>
+            <br>
+            <span>Слідкуйте за нами</span>
+            <br>
+            <span>© Created by</span>
+            <span >All rights Reserved</span>
+        </div>
     </footer>
 </body>
 </html>
