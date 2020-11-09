@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+.logo {font-style: italic;
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    }
+h1 {font-style: italic;
+    font-family: 'Prata', serif;
+    font-size: 40px;
+}
+h2 {font-family: 'Prata', serif;
+    font-size: 30px;
+}
+h3 {font-family: 'Prata', serif;
+    font-size: 20px;
+}
+img {
+    max-width: 400px;
+}
