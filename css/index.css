@@ -2,21 +2,78 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
+    --main-color: white;
+    --accent-color: rgb(121, 75, 56);
+    scroll-behavior: smooth;
 }
 .logo {font-style: italic;
     font-family: 'Prata', serif;
     font-size: 40px;
+   }
+header nav .logo {
+        font-family: 'Prata', serif;
+        font-size: 3.5rem;
+        text-align: left;
+        margin: 5px;
+        color: var(--main-color);
+        
+}
+header nav .menu-items a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 2px;
+}
+.menu-items a:hover { 
+    border-color: var(--accent-color);
+}
+@media (min-width: 768px) {
+
+    .burger-icon {
+        display: none;
     }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav input:checked ~ .menu-items {
+        display: flex;
+    }
+
+    header nav .menu-items { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+}
+header {
+    background-image: url(../img/banner.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
 h1 {font-style: italic;
     font-family: 'Prata', serif;
     font-size: 40px;
-}
+    color: var(--main-color);
+    }
 h2 {font-family: 'Prata', serif;
     font-size: 30px;
 }
 h3 {font-family: 'Prata', serif;
     font-size: 20px;
-}
-img {
-    max-width: 400px;
 }
