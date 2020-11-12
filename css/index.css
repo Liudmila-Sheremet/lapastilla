@@ -92,7 +92,6 @@ header .banner h1 {
 
 .product-pluses {
     width: 100%;
-    padding: 12px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -111,24 +110,48 @@ main .product-pluses h2 {
 
 #about {
     width: 100%;
-    padding: 14px;
     background: rgba(255,245,215,.5);
     text-align: center;
 }
-
 .about-container {
-   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-gap: 45px;
 }
+.about-container-img{
+    display: block;
+    width:100%;
+    padding-bottom: 15px;}
+    
 
+.secret-container {
+    width: 100%;
+    background: rgba(255,245,215,.5);
+    text-align: center;
+        }
+.secret-container-img {
+    width: 100%;
+    background: rgba(255,245,215,.5);
+    text-align: center;
 
+        }
+.our-products{
+     width: 100%;
+    background: rgba(255,245,215,.5);
+   
+        }
+        .galery {
+            background: rgba(255,245,215,.5);
+        }
+        #contacts {
+            background: rgba(255,245,215,.5);
+        }
 h2 {
     font-family: 'Prata', serif;
     font-size: 30px;
     color: var(--main-color);
     text-align: center;
+    padding-top: 15px;
 }
 
 .product-list {
@@ -137,6 +160,7 @@ h2 {
 
 #products {
     background: rgba(255,245,215,.5);
+    padding-bottom: 15px;
 }
 
 .product-card img {
