@@ -109,6 +109,7 @@ main .product-pluses h2 {
 
 .text-pluses {
     text-align: center;
+    margin: 0;
 }
 
 #about {
@@ -133,7 +134,7 @@ main .product-pluses h2 {
     text-align: center;
         }
 .secret-container-img {
-    width: 100%;
+    width: 90%;
     background: rgba(255,245,215,.5);
     text-align: center;
 
@@ -141,24 +142,31 @@ main .product-pluses h2 {
 .our-products{
      width: 100%;
     background: rgba(255,245,215,.5);
-   
-        }
+    margin: 0;
+           }
+.our-products-list{
+    margin: 0;
+}
         .galery {
             background: rgba(255,245,215,.5);
-            
-           
-        }
-        #contacts {
+                                           }
+               
+.d-block-w-100{
+    margin: auto;
+    width: 90%;
+}
+
+#contacts {
             background: rgba(255,245,215,.5);
             display: block;
             text-align: center;
             
         }
-        .footer-container {
+.footer-container {
             background: rgba(255,245,215,.5);
             
         }
-        .contacts-img {
+.contacts-img {
             display: inline-block;
             position: relative;
             min-width: 320px;
@@ -166,10 +174,10 @@ main .product-pluses h2 {
             height:auto;
             }
         }
-       .adress{
+.adress{
            margin-top: 15px;
        }
-       .footer-logo {
+.footer-logo {
            font-style: italic;
            font-weight: bold;
            text-decoration: underline;
@@ -180,6 +188,7 @@ h2 {
     color: var(--main-color);
     text-align: center;
     padding-top: 15px;
+    margin: 0;
 }
 
 .product-list {
@@ -189,6 +198,7 @@ h2 {
 #products {
     background: rgba(255,245,215,.5);
     padding-bottom: 15px;
+    margin: 0;
 }
 
 .product-card img {
@@ -247,19 +257,27 @@ h3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media (min-width: 980px) {
+/*@media (min-width: 980px) {
     .product-list {
         grid-template-columns: repeat(4, 1fr);
-    }
-}
+    }*/
+
 form {
   
-  margin: 0 auto;
+  margin: 0;
   width: 350px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
+          
 }
+ #contact-us {
+   
+     display: block;
+   
+  
+ }  
+
 input, 
 textarea {
   font: 1em sans-serif;
