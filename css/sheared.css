@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); :root {
+    font-family: 'Open Sans', sans-serif;
+    --main-color:black; --accent-color:rgb(102, 77, 67); scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Prata', serif;
+    font-size: 3.5rem;
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+header nav .logo {
+    font-family: 'Prata', serif;
+    font-size: 3.5rem;
+    
+    color: var(--main-color);
+}
+
+#burger-checkbox {
+    display: none;
+}
+
+header nav .menu-items {
+    display: none;
+}
+
+header nav input:checked ~ .menu-items {
+    display: block;
+}
+
+header nav .menu-items a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 2px;
+}
+
+.menu-items a:hover {
+    border-color: var(--accent-color);
+}
+
+@media (min-width: 769px) {
+    .burger-icon {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav input:checked ~ .menu-items {
+        display: block;
+    }
+
+    header nav .menu-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+}
+
+nav {
+    background: rgba(255,245,215,.5);
+}
+
+h2 {
+    font-family: 'Prata', serif;
+    font-size: 30px;
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    color: var(--main-color)
+}
+
+.footer-container {
+    background: rgba(255,245,215,.5);
+}
+
+#work-time {
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.facebook-icon {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.clock {
+    display: block;
+    background: rgba(255,245,215,.5);
+    padding-left: 15px;
+    padding-top: 15px;
+}
