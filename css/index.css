@@ -83,8 +83,9 @@ main .product-pluses h2 {
 .carousel {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background: rgba(255,245,215,.5);
+    position: relative;
 }
 
 .carousel-container {
@@ -97,6 +98,24 @@ main .product-pluses h2 {
 
 .btn-caurosel {
     background: rgba(255,245,215,.5);
+}
+.btn-back {
+    
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+      
+    }
+
+.btn-forward {
+    
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .carousel-container-img {
