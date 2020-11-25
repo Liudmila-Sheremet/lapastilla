@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); :root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+:root {
     font-family: 'Open Sans', sans-serif;
     --main-color:black; --accent-color:rgb(102, 77, 67); scroll-behavior: smooth;
 }
