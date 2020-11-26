@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
 :root {
     font-family: 'Open Sans', sans-serif;
-    --main-color:black; --accent-color:rgb(102, 77, 67); scroll-behavior: smooth;
+    --main-color:black;  scroll-behavior: smooth;
+}
+.clock {
+    display: block;
+    background: rgba(159, 126, 105);
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.3rem;
 }
 
 body {
@@ -9,20 +16,27 @@ body {
     margin: auto;
 }
 
+.navigation-container {
+
+    background: rgba(159, 126, 105);
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+
+}
 .logo {
     font-weight: bold;
     font-style: italic;
-    font-family: 'Prata', serif;
-    font-size: 3.5rem;
     color: var(--main-color);
     text-decoration: underline;
+    padding-left: 15px;
+   font-family: 'Prata', serif;
 }
 
 header nav .logo {
     font-family: 'Prata', serif;
-    font-size: 3.5rem;
-    
+    font-size: 3.0rem;
     color: var(--main-color);
+    padding-right: 
 }
 
 #burger-checkbox {
@@ -48,6 +62,7 @@ header nav .menu-items a {
 
 .menu-items a:hover {
     border-color: var(--accent-color);
+    
 }
 
 @media (min-width: 769px) {
@@ -71,9 +86,7 @@ header nav .menu-items a {
     }
 }
 
-nav {
-    background: rgba(255,245,215,.5);
-}
+
 
 h2 {
     font-family: 'Prata', serif;
@@ -82,24 +95,39 @@ h2 {
     text-align: center;
     padding-top: 15px;
     margin: 0;
+    text-decoration: underline;
+    
 }
+    
+
 
 h3 {
     font-family: 'Prata', serif;
     font-size: 20px;
-    color: var(--main-color)
+    color: var(--main-color);
+    font-weight: bold;
 }
 
 .footer-container {
     background: rgba(255,245,215,.5);
+}
+.footer-logo {
+    font-style: italic;
+    font-weight: bold;
+     text-decoration: underline;
+     font-family: 'Prata', serif;
+
 }
 
 #work-time {
     display: flex;
     justify-content : space-between;
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgba(159, 126, 105);
+    font-size: 1.1rem;
 }
 
 .facebook-icon {
@@ -107,10 +135,4 @@ h3 {
     margin-top: 15px;
 }
 
-.clock {
-    display: block;
-    background: rgba(255,245,215,.5);
-    padding-left: 15px;
-    padding-top: 15px;
-    font-size: 1.3rem;
-}
+
