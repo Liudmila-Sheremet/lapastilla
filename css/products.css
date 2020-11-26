@@ -9,7 +9,7 @@
     background: rgba(231, 207, 188);
     padding-bottom: 15px;
     margin: 0;
-    font-family: 'Prata', serif;
+    font-family:'BaskervilleDisplayPT-Regular';
    
 }
 
@@ -21,7 +21,7 @@
 .product-card {
     padding: 0.35em 1.2em;
     border: 0.1em solid black;
-    margin: 0 0.3em 0.3em 0;
+    margin: 0.3em 0.3em 0.3em 0.3em;
     border-radius: 0.12em;
     color: black;
     text-align: center;
