@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); :root {
     font-family: 'Open Sans', sans-serif;
-    --main-color:black;  scroll-behavior: smooth;
+    --main-color:black; scroll-behavior: smooth;
 }
+
 .clock {
     display: block;
-    background: rgba(159, 126, 105);
     padding-left: 15px;
     padding-top: 15px;
+}
+
+.clock-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(159, 126, 105);
     font-size: 1.3rem;
+}
+
+#current-date-block {
+    display: block;
+    padding-right: 15px;
+    padding-top: 15px;
 }
 
 body {
@@ -17,26 +29,25 @@ body {
 }
 
 .navigation-container {
-
     background: rgba(159, 126, 105);
     padding-bottom: 20px;
     font-size: 1.1rem;
-
 }
+
 .logo {
     font-weight: bold;
     font-style: italic;
     color: var(--main-color);
     text-decoration: underline;
     padding-left: 15px;
-   font-family: 'Prata', serif;
+    font-family: 'Prata', serif;
 }
 
 header nav .logo {
     font-family: 'Prata', serif;
     font-size: 3.0rem;
     color: var(--main-color);
-    padding-right: 
+    padding-right:
 }
 
 #burger-checkbox {
@@ -62,7 +73,6 @@ header nav .menu-items a {
 
 .menu-items a:hover {
     border-color: var(--accent-color);
-    
 }
 
 @media (min-width: 769px) {
@@ -86,23 +96,17 @@ header nav .menu-items a {
     }
 }
 
-
-
 h2 {
-    font-family:'BaskervilleDisplayPT-Regular';
+    font-family: 'BaskervilleDisplayPT-Regular';
     font-size: 30px;
     color: var(--main-color);
     text-align: center;
     padding-top: 15px;
     margin: 0;
-    
-    
 }
-    
-
 
 h3 {
-    font-family:'BaskervilleDisplayPT-Regular';
+    font-family: 'BaskervilleDisplayPT-Regular';
     font-size: 20px;
     color: var(--main-color);
     font-weight: bold;
@@ -111,12 +115,12 @@ h3 {
 .footer-container {
     background: rgba(255,245,215,.5);
 }
+
 .footer-logo {
     font-style: italic;
     font-weight: bold;
-     text-decoration: underline;
-     font-family: 'Prata', serif;
-
+    text-decoration: underline;
+    font-family: 'Prata', serif;
 }
 
 #work-time {
@@ -134,5 +138,3 @@ h3 {
     margin-left: 30px;
     margin-top: 15px;
 }
-
-

@@ -9,8 +9,7 @@
     background: rgba(231, 207, 188);
     padding-bottom: 15px;
     margin: 0;
-    font-family:'BaskervilleDisplayPT-Regular';
-   
+    font-family: 'BaskervilleDisplayPT-Regular';
 }
 
 .product-card img {
@@ -27,7 +26,6 @@
     text-align: center;
     transition: all 0.7s;
     background-color: transparent;
-
 }
 
 .product-buttons {

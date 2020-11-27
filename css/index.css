@@ -12,7 +12,7 @@
 
 header .banner h1 {
     font-style: italic;
-    font-family:'BaskervilleDisplayPT-Regular';
+    font-family: 'BaskervilleDisplayPT-Regular';
     font-size: 40px;
     color: var(--main-color);
     background: rgba(255,245,215,.5);
@@ -48,16 +48,15 @@ main .product-pluses h2 {
 .about-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
+    grid-gap: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .about-container-img {
     display: block;
     width: 100%;
     padding-bottom: 15px;
-   
 }
 
 .secret-container {
@@ -73,15 +72,44 @@ main .product-pluses h2 {
     text-align: center;
 }
 
+.our-products-title {
+    background: rgba(255, 238, 226);
+    margin: 0;
+    padding-bottom: 15px;
+}
+
 .our-products {
     width: 100%;
     background: rgba(255, 238, 226);
-    margin: 0;
+    display: flex;
+    align-items: center;
+    
+      
+}
+
+
+@media screen and (max-width: 320px) {
+  .our-products  {
+    flex-direction: column;
+  }
+}
+
+.new-year-pastila {
+    width: 100%;
+    padding-right: 70px;
+
+}
+.new-year-pastila-img {
+
+    width: 100%;
+   
 }
 
 .our-products-list {
-    margin: 0;
+  
     font-size: 1.3rem;
+    width: 60%;
+    padding-left: 30px;
 }
 
 .galery {
@@ -107,9 +135,9 @@ main .product-pluses h2 {
 .btn-caurosel {
     background: rgba(255, 238, 226);
 }
+
 .btn-back {
-    
-     position: absolute;
+    position: absolute;
     top: calc(50% - 10px);
     left: 30px;
     padding: 5px 5px;
@@ -123,12 +151,10 @@ main .product-pluses h2 {
     letter-spacing: 2px;
     background-color: transparent;
 }
-    
 
 .btn-forward {
-    
     position: absolute;
-    top:calc(50% - 10px);
+    top: calc(50% - 10px);
     right: 30px;
     padding: 5px 5px;
     margin-top: 4px;
@@ -139,7 +165,8 @@ main .product-pluses h2 {
     text-align: centre;
     transition: all 0.7s;
     letter-spacing: 2px;
-    background-color: transparent;}
+    background-color: transparent;
+}
 
 .carousel-container-img {
     width: 90%;
@@ -152,9 +179,7 @@ main .product-pluses h2 {
     display: block;
     text-align: center;
     padding-bottom: 15px;
-    
 }
-
 
 .contacts-img {
     display: inline-block;
@@ -162,7 +187,6 @@ main .product-pluses h2 {
     max-width: 100%;
     height: auto;
 }
-
 
 .adress {
     margin-top: 15px;
@@ -174,12 +198,11 @@ main .product-pluses h2 {
     font-size: 1.3rem;
 }
 
-#data{
+#data {
     width: 50%;
     margin: auto;
-    
-    }
- 
+}
+
 form {
     margin: 0;
     width: 350px;
@@ -193,18 +216,26 @@ form {
     text-align: center;
     background: rgba(255, 238, 226);
     font-size: 1.3rem;
-  
 }
 
 input, textarea {
     font: 1em sans-serif;
-    width:100%;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
 }
-.button-card-button {
 
-    width:100%;
+.button-card-button {
+    width: 100%;
     margin: auto;
-    
+}
+
+/*.callback-form {
+  background-image: url(//res2.weblium.site/res/5bc7111959a60a0024e4398e/5bc71b5759a60a0024e46028_optimized_1920);
+  width: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
