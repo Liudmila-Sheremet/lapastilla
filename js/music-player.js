@@ -13,7 +13,7 @@ const cover = document.getElementById('cover');
 const songs = ['hey', 'summer', 'ukulele'];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 1;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
