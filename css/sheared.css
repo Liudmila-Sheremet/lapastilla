@@ -3,6 +3,16 @@
     --main-color:black; scroll-behavior: smooth;
 }
 
+html {
+    background-color:rgba(255, 238, 226);
+    padding-right: 0;
+    padding-left: 0;
+}
+body.container{
+   
+    padding-right: 0;
+    padding-left: 0;
+}
 .clock {
     display: block;
     padding-left: 15px;
