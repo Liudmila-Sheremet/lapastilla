@@ -1,30 +1,59 @@
 [
     {
         "id": "1",
-        "title": "Baby Yoda",
-        "image": "baby-yoda.svg",
-        "description": "Baby Yoda sticker",
-        "price": 49.99
+        "title": "Пастила з малини",
+        "image": "raspberry.jpg",
+        "description": "Пастила з малини",
+        "price": 50.00
     },
     {
         "id": "2",
-        "title": "Banana",
-        "image": "banana.svg",
-        "description": "Banana sticker",
-        "price": 19.99
+        "title": "Пастила зі сливи",
+        "image": "plum.jpg",
+        "description": "Пастила зі сливи",
+        "price": 50.00
     },
     {
         "id": "3",
-        "title": "Girl",
-        "image": "girl.svg",
-        "description": "Girl sticker",
-        "price": 24.99
+        "title": "Пастила з абрикосу",
+        "image": "apricot.jpg",
+        "description": "Пастила з абрикосу",
+        "price": 50.00
     },
     {
         "id": "4",
-        "title": "Viking",
-        "image": "viking.svg",
-        "description": "Viking sticker",
-        "price": 34.99
+        "title": "Пастила з винограду",
+        "image": "grapes.jpg",
+        "description": "Пастила з винограду",
+        "price": 50.00
+    },
+    {
+        "id": "5",
+        "title": "Пастила з яблука",
+        "image": "apple.jpg",
+        "description": "Пастила з яблука",
+        "price": 50.00
+    },
+    {
+        "id": "6",
+        "title": "Пастила з груші",
+        "image": "pear.jpg",
+        "description": "Пастила з груші",
+        "price": 50.00
+    },
+    {
+        "id": "7",
+        "title": "Пастила з груші",
+        "image": "pear.jpg",
+        "description": "Пастила з груші",
+        "price": 50.00
+    },
+    {
+        "id": "8",
+        "title": "Пастила з груші",
+        "image": "pear.jpg",
+        "description": "Пастила з груші",
+        "price": 50.00
     }
+
 ]
