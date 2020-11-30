@@ -22,10 +22,7 @@ header .banner h1 {
     color: var(--main-color);
     background: rgba(255,245,215,.5);
 }
-.container {
-    padding-right: 0;
-    padding-left: 0;
-}
+
 
 .product-pluses {
     width: 100%;
@@ -42,6 +39,7 @@ main .product-pluses h2 {
 }
 
 .text-pluses {
+    
     text-align: center;
     margin: 0;
     padding-bottom: 16px;
@@ -49,9 +47,10 @@ main .product-pluses h2 {
 
 #about {
     width: 100%;
-    background: rgba(255, 238, 226);
+   
     text-align: center;
     font-size: 1.3rem;
+    background-image: url(../img/mount.jpg);
 }
 
 .about-container {
@@ -106,6 +105,7 @@ main .product-pluses h2 {
 
 .new-year-pastila-img {
     width: 100%;
+    
        }
 
 .our-products-list {
@@ -217,9 +217,10 @@ form {
 #contact-us {
     display: block;
     text-align: center;
-    background: rgba(255, 238, 226);
+   background: rgba(255, 238, 226);
     font-size: 1.3rem;
 }
+
 
 input, textarea {
     font: 1em sans-serif;
@@ -231,14 +232,4 @@ input, textarea {
 .button-card-button {
     width: 100%;
     margin: auto;
-}
-
-/*.callback-form {
-  background-image: url(//res2.weblium.site/res/5bc7111959a60a0024e4398e/5bc71b5759a60a0024e46028_optimized_1920);
-  width: 100%;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }

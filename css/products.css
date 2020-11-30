@@ -3,7 +3,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-}
+    font-size: 1.3rem;
+} 
 
 #products {
     background: rgba(231, 207, 188);
@@ -12,70 +13,41 @@
     font-family: 'BaskervilleDisplayPT-Regular';
 }
 
-.product-card img {
-    display: block;
-    width: 100%;
-}
+#products .buy {
 
-.product-card {
-    padding: 0.35em 1.2em;
-    border: 0.1em solid black;
-    margin: 0.3em 0.3em 0.3em 0.3em;
-    border-radius: 0.12em;
+    border: 2px solid rgb(238, 150, 68);
+    background-color: rgb(238, 150, 68);
     color: black;
-    text-align: center;
-    transition: all 0.7s;
-    background-color: transparent;
-}
+   
+    font-size: 1.1rem;
 
-.product-buttons {
-    display: flex;
-    justify-content: space-around;
 }
+#products .buy:hover {
+    border: 2px solid rgb(196, 117, 44);
+    background-color: rgb(196, 117, 44);
+    color:black;}
 
-.button {
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    color: #FFFFFF;
-    text-align: center;
-    transition: all 0.7s;
-    background-color: transparent;
+#products .btn-info {
+
+    border: 2px solid rgb(58, 197, 221);
+    background-color: rgb(50, 181, 204);
+    color:black;
+    font-size: 1.1rem;}
+                          
+#products .btn-info:hover {
+    border: 2px solid rgb(43, 166, 214);
+    background-color: rgb(43, 166, 214);
+    color:black;}
+
+.modal-footer .btn-close {
+    border: 2px solid rgb(42, 141, 255);
+    background-color: rgb(42, 141, 255);
+    color:black;;
+      
 }
-
-.button:hover {
-    color: #000000;
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-
-.card-button {
-    border-color: black;
-    color: black;
-}
-
-.card-button:hover {
-    background-color: black;
-    color: white;
-}
-
-@media (min-width: 540px) {
-    .product-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-    }
-}
-
-@media (min-width: 660px) {
-    .product-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (min-width: 980px) {
-    .product-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
+.modal-footer .order {
+    border: 2px solid rgb(238, 150, 68);
+    background-color: rgb(238, 150, 68);
+    color:black;;
+      
 }
