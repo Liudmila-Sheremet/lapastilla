@@ -54,16 +54,7 @@ class ProductList {
           this.handleProductBuyClick(event)
         )
       );
-    document.querySelector('.sort-asc').addEventListener('click', async () => {
-        this.sortDirection = 'ascending';
-        await this.renderProducts();
-        this.addEventListeners();
-    });
-    document.querySelector('.sort-desc').addEventListener('click', async () => {
-        this.sortDirection = 'descending';
-        await this.renderProducts();
-        this.addEventListeners();
-    });
+    
   }
   async handleProductInfoClick(event) {
     const button = event.target; // Button that triggered the modal
@@ -77,7 +68,7 @@ class ProductList {
     modal.querySelector('.modal-body .card-text').innerText =
       product.description;
     const btnBuy = modal.querySelector('button.buy');
-    btnBuy.innerText = `${product.price} - Buy`;
+    btnBuy.innerText = `${product.price} - Купити`;
     btnBuy.dataset.id = id;
   }
   handleProductBuyClick(event) {
